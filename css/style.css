@@ -73,6 +73,11 @@ nav {
   cursor: pointer;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+}
+
 nav button {
   background: rgb(229, 9, 20);
   font-size: 14px;
@@ -175,9 +180,9 @@ form {
 }
 
 .banner2 {
-  width: 98%;
+  width: 96%;
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -229,4 +234,5 @@ form {
 
 .pipoca {
   margin: 0 20px 20px 0;
+  width: 96px;
 }
