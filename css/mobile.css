@@ -173,9 +173,6 @@
   }
 
   .banner2 {
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
   }
 
   .banner_plano {
@@ -187,6 +184,7 @@
 
   .pipoca {
     margin: 0 0 10px 0;
+    width: 75px;
   }
 
   .text {
@@ -195,18 +193,19 @@
   }
 
   .p1 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     margin-bottom: 8px;
   }
 
   .p2 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     margin-bottom: 8px;
   }
 
   .saibamais {
-    font-size: 14px;
+    font-size: 10px;
+    margin-bottom: 10px;
   }
 }
