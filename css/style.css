@@ -69,7 +69,7 @@ select {
 #language {
   display: inline;
   border: 0.08px solid #6b6868;
-  padding: 6px 15px;
+  padding: 8px 15px;
   border-radius: 3px;
 }
 
@@ -115,7 +115,7 @@ form {
 .email input {
   border-radius: 3px;
   padding: 15px 250px 10px 15px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid gray;
 }
 
