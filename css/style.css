@@ -1,5 +1,11 @@
 @font-face {
   font-family: "Netflix Sans";
+  src: local(Netflix), url(../fonts/NetflixSans-Thin.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Netflix Sans";
   src: local(Netflix), url(../fonts/NetflixSans-Light.otf);
   font-weight: 300;
 }
@@ -21,6 +27,12 @@
  src: local(Netflix), url(../fonts/NetflixSans-Bold.otf);
  font-weight: 700;
 }
+
+@font-face {
+  font-family: "Netflix Sans";
+  src: local(Netflix), url(../fonts/NetflixSans-Black.otf);
+  font-weight: 800;
+ }
 
 * {
   margin: 0;
@@ -110,8 +122,7 @@ select {
 
 .content h1 {
   font-size: 48px;
-  font-stretch:ultra-condensed;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 40px;
   margin-bottom: 30px;
 }
