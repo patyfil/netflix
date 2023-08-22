@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Netflix Sans";
+  src: local(Netflix), url(../fonts/NetflixSans-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  src: local(Netflix), url(../fonts/NetflixSans-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Netflix Sans";
+  src: local(Netflix), url(../fonts/NetflixSans-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+ font-family: "Netflix Sans";
+ src: local(Netflix), url(../fonts/NetflixSans-Bold.otf);
+ font-weight: 700;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,14 +47,12 @@ header {
   background-size: cover;
   background-position: center;
   padding: 0 330px;
-
 }
 
 nav {
   display: flex;
   padding: 0 32px;
   align-items: center;
-  /*centraliza verticalmente*/
   justify-content: space-between;
 }
 
@@ -43,7 +65,7 @@ nav button {
   background: rgb(229, 9, 20);
   font-size: 14px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   padding: 8px 15px;
   border-radius: 3px;
   margin-left: 20px;
@@ -88,21 +110,22 @@ select {
 
 .content h1 {
   font-size: 48px;
-  font-weight: 800;
+  font-stretch:ultra-condensed;
+  font-weight: 700;
   line-height: 40px;
   margin-bottom: 30px;
 }
 
 .content p {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 20px;
   margin-bottom: 30px;
 }
 
 .content h3 {
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 30px;
   margin-bottom: 10px;
 }
@@ -162,19 +185,19 @@ form {
 }
 
 .text {
-  /* padding: 0 0 0 600px; */
   text-align: left;
 }
 
 .p1 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
 }
 
 .p2 {
   font-size: 16px;
+  font-weight: 400;
   line-height: 24px;
   margin-bottom: 10px;
 }
@@ -184,11 +207,13 @@ form {
   background-color: transparent;
   text-decoration: underline;
   color: #448ef4;
-  font-size: 16px;
+
 }
 
 .saibamais a {
   color: #448ef4;
+  font-size: 16px;
+  font-weight: 13.3px;
 }
 
 .pipoca {
