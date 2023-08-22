@@ -3,7 +3,7 @@
   header {
     padding: 0 10%;
   }
- 
+
   .logo {
     width: 150px;
   }
@@ -14,7 +14,7 @@
     align-items: center;
     padding: 10px 200px;
   }
-  
+
   .email input {
     padding: 10px 200px 10px 15px;
   }
@@ -142,6 +142,7 @@
 
   .content {
     width: 90%;
+    top: 40%;
     transform: translate(-50%, -50%);
   }
 
@@ -170,9 +171,6 @@
     font-size: 12px;
     padding: 20px 30px;
     line-height: 0;
-  }
-
-  .banner2 {
   }
 
   .banner_plano {
@@ -207,5 +205,11 @@
   .saibamais {
     font-size: 10px;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  nav {
+    flex-direction: column;
   }
 }
